@@ -5,7 +5,7 @@ if [ ! -d "temp" ]; then
 fi
 
 #update hosts
-#curl -o temp/hosts https://raw.githubusercontent.com/racaljk/hosts/master/hosts 
+curl -o temp/hosts https://raw.githubusercontent.com/racaljk/hosts/master/hosts 
 
 #backup old hosts
 
